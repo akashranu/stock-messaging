@@ -7,8 +7,7 @@ VERIFIED_NUMBER = "your own phone number verified with Twilio"
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-STOCK_ENDPOINT = "https://www.alphavantage.co/query"
-NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
+
 
 STOCK_API = "ENTER TWILIO "
 NEWS_API_KEY = "ENTER NEWS API KEY"
