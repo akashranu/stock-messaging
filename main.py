@@ -12,7 +12,6 @@ NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
 STOCK_API = "ENTER TWILIO "
 NEWS_API_KEY = "ENTER NEWS API KEY"
-TWILIO_ID = "ENTER YOUR TWILIO SID NUMBER"
 TWILIO_AUTH_NUM = "ENTER TWILIO AUTHENTICATION NUMBER"
 
 ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
