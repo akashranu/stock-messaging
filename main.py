@@ -22,7 +22,7 @@ TWILIO_AUTH_NUM = "ENTER TWILIO AUTHENTICATION NUMBER"
 stock_params = {
     "function": "TIME_SERIES_DAILY",
     "symbol": STOCK_NAME,
-    "apikey": STOCK_API_KEY,
+    "apikey": STOCK_API,
 }
 
 response = requests.get(STOCK_ENDPOINT, params=stock_params)
@@ -56,7 +56,7 @@ three_articles = articles[:3]
 formatted_articles = [f"{STOCK_NAME}: {up_down}{percent_diff}%\nHeadline: {article['title']}. \nBrief: {article['description']}" for article in three_articles]
 print(articles)
 
-client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
+client = Client(TWILIO_ID, TWILIO_AUTH_NUM)
 
 for article in formatted_articles:
     message = client.messages.create(
