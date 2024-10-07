@@ -57,6 +57,6 @@ client = Client(TWILIO_ID, TWILIO_AUTH_NUM)
 for article in formatted_articles:
     message = client.messages.create(
         body=article,
-        from_="+513230937",
-        to= "077XXXXXXXXXX"
+        from_="VIRTUAL_TWILIO_NUMBER",
+        to= "VIRTUAL_TWILIO_NUMBER"
     )
